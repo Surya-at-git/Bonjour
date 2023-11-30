@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#bgimage{
+    height: 100%;
+    width: 100%;
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Nosifer;
+    font-weight: 100;
+    font-size: 80px;
+    color: #fff;
+    mix-blend-mode: difference;
+}
+
+h3{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Nova Square;
+    font-weight: 100;
+    font-size: 28px;
+    color: #fff;
+    mix-blend-mode: difference;
+}
